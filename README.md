@@ -1,6 +1,6 @@
-# Sistem Antrian Servis Laptop
+# servisin
 
-Program ini adalah project bahasa C berbasis CLI untuk mengelola antrian servis laptop menggunakan konsep `Priority Queue`. Sistem dipakai untuk mencatat data servis customer, mengatur urutan pengerjaan berdasarkan prioritas kerusakan, mengubah status servis, melakukan pencarian data, dan menampilkan hasil sorting.
+`servisin` adalah project bahasa C berbasis CLI untuk mengelola antrian servis laptop menggunakan konsep `Priority Queue`. Sistem ini digunakan untuk mencatat data servis customer, mengatur urutan pengerjaan berdasarkan prioritas kerusakan, mengubah status servis, melakukan pencarian data, dan menampilkan hasil sorting.
 
 ## Fitur
 
