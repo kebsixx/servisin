@@ -1,6 +1,12 @@
 # servisin
 
+![Language](https://img.shields.io/badge/Language-C-blue)
+![Project](https://img.shields.io/badge/Project-CLI-green)
+![Topic](https://img.shields.io/badge/Data%20Structure-Priority%20Queue-orange)
+
 `servisin` adalah project bahasa C berbasis CLI untuk mengelola antrian servis laptop menggunakan konsep `Priority Queue`. Sistem ini digunakan untuk mencatat data servis customer, mengatur urutan pengerjaan berdasarkan prioritas kerusakan, mengubah status servis, melakukan pencarian data, dan menampilkan hasil sorting.
+
+**About repo:** Aplikasi CLI bahasa C untuk mengelola antrian servis laptop menggunakan Priority Queue.
 
 ## Fitur
 
@@ -98,6 +104,45 @@ MENUNGGU -> DIPROSES -> SELESAI -> DIAMBIL
 8. Tampilkan Semua Data
 0. Keluar
 =====================================
+```
+
+## Contoh Output
+
+Berikut contoh tampilan menu utama program saat dijalankan:
+
+```text
+=====================================
+ SISTEM ANTRIAN SERVIS LAPTOP
+=====================================
+1. Tambah Data Servis
+2. Lihat Antrian Prioritas
+3. Ambil Servis Berikutnya
+4. Selesaikan Servis
+5. Serah Terima Servis
+6. Cari Data Servis
+7. Sorting Data
+8. Tampilkan Semua Data
+0. Keluar
+=====================================
+Pilih menu:
+```
+
+Contoh output saat menambahkan data servis:
+
+```text
+--- Tambah Data Servis ---
+Nama Customer        : Anwar
+No HP                : 08123456789
+Merk Laptop          : ASUS
+Tipe Laptop          : TUF F15
+Keluhan              : Tidak bisa menyala
+Pilih jenis kerusakan [1-8]: 1
+Estimasi Biaya       : 350000
+
+Data servis berhasil ditambahkan.
+ID Servis  : 1
+Prioritas  : 1
+Status     : MENUNGGU
 ```
 
 ## Cara Menjalankan
